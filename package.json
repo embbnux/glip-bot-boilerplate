@@ -1,0 +1,21 @@
+{
+  "name": "glip-bot-boilerplate",
+  "version": "0.0.1",
+  "description": "A Glip bot for RingCentral Glip developers.",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "ngrok": "ngrok http 3000"
+  },
+  "devDependencies": {
+    "ngrok": "^2.2.24",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "commander": "^2.12.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "ringcentral": "^3.1.3"
+  }
+}
